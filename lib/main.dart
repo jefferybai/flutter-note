@@ -1,40 +1,64 @@
 import 'package:flutter/material.dart';
-import 'package:he/mixins.dart';
+import 'package:he/inherit_widget_ts.dart';
+// import 'package:he/mixins.dart';
 
 void main() {
-  F f = F();
-  f.a();
+  // mixin test
+  // F f = F();
+  // f.a();
+
+  runApp(WidgetTst());
 }
 
+class WidgetTst extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // inheritedWidget test
+    return MaterialApp(
+      home: TestInheit(5, AWidget()),
+    );
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// Try running your application with "flutter run". You'll see the
+// application has a blue toolbar. Then, without quitting the app, try
+// changing the primarySwatch below to Colors.green and then invoke
+// "hot reload" (press "r" in the console where you ran "flutter run",
+// or simply save your changes to "hot reload" in a Flutter IDE).
+// Notice that the counter didn't reset back to zero; the application
+// is not restarted.
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
