@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:he/inherit_widget_ts.dart';
+import 'package:he/custom_layout_ts.dart';
+// import 'package:he/inherit_widget_ts.dart';
 import 'package:he/life_cycle_widget_ts.dart';
 // import 'package:he/mixins.dart';
 
@@ -23,8 +24,13 @@ class WidgetTst extends StatelessWidget {
     // );
 
     // life_cycle Test
+    // return MaterialApp(
+    //   home: NumContainer(),
+    // );
+
+    //customlayout
     return MaterialApp(
-      home: NumContainer(),
+      home: CustomLayout(),
     );
   }
 }

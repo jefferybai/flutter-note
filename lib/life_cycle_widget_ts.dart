@@ -29,6 +29,18 @@ class _CounterState extends State<Counter> {
   }
 
   @override
+  void didUpdateWidget(Counter oldWidget) {
+    print('didUpdateWidget');
+    super.didUpdateWidget(oldWidget);
+  }
+
+  @override
+  void deactivate() {
+    print('deactivate');
+    super.deactivate();
+  }
+
+  @override
   void dispose() {
     print('dispose');
     super.dispose();
