@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:he/inherit_widget_ts.dart';
+import 'package:he/life_cycle_widget_ts.dart';
 // import 'package:he/mixins.dart';
 
 void main() {
@@ -14,8 +15,16 @@ class WidgetTst extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // inheritedWidget test
+
+    // PaintingBinding
+    // WidgetsFlutterBinding
+    // return MaterialApp(
+    //   home: TestInheit(6, AWidget()),
+    // );
+
+    // life_cycle Test
     return MaterialApp(
-      home: TestInheit(5, AWidget()),
+      home: NumContainer(),
     );
   }
 }
