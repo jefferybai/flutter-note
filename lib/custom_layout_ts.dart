@@ -28,6 +28,6 @@ class CustomDeleget extends SingleChildLayoutDelegate {
 
   @override
   bool shouldRelayout(SingleChildLayoutDelegate oldDelegate) {
-    return null;
+    return false;
   }
 }

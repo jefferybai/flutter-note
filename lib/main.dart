@@ -2,12 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:he/custom_layout_ts.dart';
 // import 'package:he/inherit_widget_ts.dart';
 import 'package:he/life_cycle_widget_ts.dart';
+import 'package:he/stream_ts.dart';
 // import 'package:he/mixins.dart';
 
 void main() {
   // mixin test
   // F f = F();
   // f.a();
+
+  //Stream Test
+  StreamTst().init();
 
   runApp(WidgetTst());
 }
