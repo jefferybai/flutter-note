@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:he/custom_layout_ts.dart';
+import 'package:he/interactive_ts.dart';
 // import 'package:he/inherit_widget_ts.dart';
 import 'package:he/life_cycle_widget_ts.dart';
 import 'package:he/stream_ts.dart';
@@ -11,7 +12,7 @@ void main() {
   // f.a();
 
   //Stream Test
-  StreamTst().init();
+  // StreamTst().init();
 
   runApp(WidgetTst());
 }
@@ -33,9 +34,12 @@ class WidgetTst extends StatelessWidget {
     // );
 
     //customlayout
-    return MaterialApp(
-      home: CustomLayout(),
-    );
+    // return MaterialApp(
+    //   home: CustomLayout(),
+    // );
+
+    //GestureTst
+    return MaterialApp(home: GestureDetectorPage());
   }
 }
 
